@@ -20,7 +20,7 @@ ArduinoDistanceSensor is a library designed to simplify the process of working w
 ```cpp
 #include <ArduinoDistanceSensor.h>
 
-ArduinoDistanceSensor sensor;
+ArduinoDistanceSensor sensor(10, 9);
 
 void setup() {
     Serial.begin(9600);
