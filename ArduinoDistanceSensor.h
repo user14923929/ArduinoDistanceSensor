@@ -1,3 +1,6 @@
+#ifndef ARDUINODISTANCESENSOR_H
+#define ARDUINODISTANCESENSOR_H
+
 class ArduinoDistanceSensor {
 public:
     ArduinoDistanceSensor(int triggerPin, int echoPin);
@@ -10,3 +13,5 @@ private:
     long duration;
     long distance;
 }
+
+#endif // ARDUINODISTANCESENSOR_H
